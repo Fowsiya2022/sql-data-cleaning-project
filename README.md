@@ -3,11 +3,6 @@
 ## Overview
 This project focuses on cleaning and preparing a housing dataset using SQL.
 
-## Skills Used
-- Data Cleaning
-- SQL
-- Data Transformation
-
 ## Data Cleaning Process
 
 The dataset was cleaned and transformed using SQL to improve data quality and prepare it for analysis.
