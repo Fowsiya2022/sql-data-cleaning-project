@@ -21,10 +21,16 @@ The raw dataset contained issues such as duplicate records, inconsistent formatt
 After applying data cleaning techniques, the dataset was standardised and structured. Duplicates were removed, missing values were handled, and data formats were made consistent, resulting in a clean dataset ready for analysis.
 
 ![After Cleaning](after-cleaning.png)
-## Key Tasks
-- Removed duplicates
-- Handled missing values
-- Standardised data formats
+## Data Cleaning Steps
+
+The dataset was cleaned using SQL through the following steps:
+
+- Created staging tables to safely clean the data  
+- Removed duplicate records using ROW_NUMBER()  
+- Standardised text fields (company names, industry, country)  
+- Converted date formats for consistency  
+- Handled missing values using joins and updates  
+- Removed unnecessary or incomplete records  
 
 ## Skills Used
 - Data Cleaning
